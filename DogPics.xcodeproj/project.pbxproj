@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4CE8722A8D690B00B97A8F /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CE8712A8D690B00B97A8F /* DogViewModel.swift */; };
 		CC67F4142A8BD1DF006748F6 /* DogPicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67F4132A8BD1DF006748F6 /* DogPicsApp.swift */; };
 		CC67F4162A8BD1DF006748F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67F4152A8BD1DF006748F6 /* ContentView.swift */; };
 		CC67F4182A8BD1E1006748F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67F4172A8BD1E1006748F6 /* Assets.xcassets */; };
@@ -14,11 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC4CE8712A8D690B00B97A8F /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 		CC67F4102A8BD1DF006748F6 /* DogPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC67F4132A8BD1DF006748F6 /* DogPicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPicsApp.swift; sourceTree = "<group>"; };
 		CC67F4152A8BD1DF006748F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC67F4172A8BD1E1006748F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC67F41A2A8BD1E1006748F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC67F4212A8BD265006748F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,9 @@
 		CC67F4122A8BD1DF006748F6 /* DogPics */ = {
 			isa = PBXGroup;
 			children = (
+				CC67F4212A8BD265006748F6 /* Info.plist */,
 				CC67F4132A8BD1DF006748F6 /* DogPicsApp.swift */,
+				CC4CE8712A8D690B00B97A8F /* DogViewModel.swift */,
 				CC67F4152A8BD1DF006748F6 /* ContentView.swift */,
 				CC67F4172A8BD1E1006748F6 /* Assets.xcassets */,
 				CC67F4192A8BD1E1006748F6 /* Preview Content */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4CE8722A8D690B00B97A8F /* DogViewModel.swift in Sources */,
 				CC67F4162A8BD1DF006748F6 /* ContentView.swift in Sources */,
 				CC67F4142A8BD1DF006748F6 /* DogPicsApp.swift in Sources */,
 			);
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = 664FMHC4VF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogPics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = 664FMHC4VF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogPics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
